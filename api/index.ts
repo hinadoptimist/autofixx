@@ -1,7 +1,6 @@
 import { Request, Response } from 'express';
 import express from 'express';
 import cors from 'cors';
-import { registerRoutes } from '../server/routes';
 
 const app = express();
 
@@ -25,8 +24,23 @@ app.get('/api/health', (req: Request, res: Response) => {
   });
 });
 
-// Register all routes
-registerRoutes(app);
+// Basic API routes without database
+app.get('/api/products', (req: Request, res: Response) => {
+  // Mock data for demo - replace with your actual data source
+  res.json([
+    { id: 1, name: 'Sample Product', price: 1000, category: 'Engine Parts' }
+  ]);
+});
+
+app.post('/api/auth/login', (req: Request, res: Response) => {
+  // Mock login - replace with actual authentication
+  res.json({ success: true, message: 'Login successful' });
+});
+
+app.post('/api/auth/register', (req: Request, res: Response) => {
+  // Mock registration - replace with actual user creation
+  res.json({ success: true, message: 'Registration successful' });
+});
 
 // Error handling middleware
 app.use((err: any, req: Request, res: Response, next: any) => {
