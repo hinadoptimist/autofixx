@@ -1,8 +1,8 @@
-# AutoFixx - Automobile Spare Parts E-commerce Platform
+# AutoFixx - Motorcycle Spare Parts E-commerce Platform
 
 ## Overview
 
-AutoFixx is a modern e-commerce platform specializing in automobile spare parts for both cars and motorcycles. The application is built as a full-stack solution using React for the frontend, Express.js for the backend, and PostgreSQL as the database. The platform features a comprehensive product catalog, shopping cart functionality, user authentication, and a complete checkout process.
+AutoFixx is a modern e-commerce platform specializing in motorcycle spare parts for the Pakistan market. Founded by Jabbar Ahmed, the platform focuses exclusively on 70CC, 100CC, and 125CC motorcycles - the most popular engine sizes in Pakistan. The application is built as a full-stack solution using React for the frontend, Express.js for the backend, and PostgreSQL as the database. The platform features a comprehensive product catalog, shopping cart functionality, user authentication, and a complete checkout process with Pakistani Rupee (PKR) pricing.
 
 ## System Architecture
 
@@ -119,3 +119,21 @@ The application uses a well-structured PostgreSQL schema with the following main
 ## User Preferences
 
 Preferred communication style: Simple, everyday language.
+
+## Business Details
+
+**Owner:** Jabbar Ahmed  
+**Contact:** +92 345 549 4163  
+**Email:** iamrjahmed@gmail.com  
+**Target Market:** Pakistan only  
+**Specialization:** Motorcycle spare parts for 70CC, 100CC, and 125CC engines  
+**Currency:** Pakistani Rupee (PKR)  
+
+## Product Focus
+
+The platform exclusively targets motorcycle spare parts for:
+- 70CC motorcycles (Honda CD70, etc.)
+- 100CC motorcycles (Honda CD100, etc.) 
+- 125CC motorcycles (Honda CG125, Yamaha YBR125, Suzuki GD125, etc.)
+
+Popular brands include Honda, Yamaha, Suzuki, Bajaj, Hero, United, and quality aftermarket brands like Crown, Osaka, NGK, and Denso.

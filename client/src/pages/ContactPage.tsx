@@ -85,9 +85,9 @@ export function ContactPage() {
                     </div>
                     <div>
                       <h3 className="font-semibold text-gray-900 dark:text-white mb-1">Phone</h3>
-                      <p className="text-gray-600 dark:text-gray-300">+1 (555) 123-4567</p>
+                      <p className="text-gray-600 dark:text-gray-300">+92 345 549 4163</p>
                       <p className="text-sm text-gray-500 dark:text-gray-400 mt-1">
-                        Monday - Friday: 8:00 AM - 6:00 PM EST
+                        Monday - Friday: 9:00 AM - 7:00 PM PKT
                       </p>
                     </div>
                   </div>
@@ -102,7 +102,7 @@ export function ContactPage() {
                     </div>
                     <div>
                       <h3 className="font-semibold text-gray-900 dark:text-white mb-1">Email</h3>
-                      <p className="text-gray-600 dark:text-gray-300">support@autofixx.com</p>
+                      <p className="text-gray-600 dark:text-gray-300">iamrjahmed@gmail.com</p>
                       <p className="text-sm text-gray-500 dark:text-gray-400 mt-1">
                         We typically respond within 2-4 hours
                       </p>
@@ -120,9 +120,9 @@ export function ContactPage() {
                     <div>
                       <h3 className="font-semibold text-gray-900 dark:text-white mb-1">Address</h3>
                       <p className="text-gray-600 dark:text-gray-300">
-                        123 Auto Street<br />
-                        Car City, CC 12345<br />
-                        United States
+                        AutoFixx Parts Store<br />
+                        Lahore, Punjab<br />
+                        Pakistan
                       </p>
                     </div>
                   </div>
@@ -138,8 +138,8 @@ export function ContactPage() {
                     <div>
                       <h3 className="font-semibold text-gray-900 dark:text-white mb-1">Business Hours</h3>
                       <div className="text-gray-600 dark:text-gray-300 text-sm space-y-1">
-                        <p>Monday - Friday: 8:00 AM - 6:00 PM</p>
-                        <p>Saturday: 9:00 AM - 4:00 PM</p>
+                        <p>Monday - Friday: 9:00 AM - 7:00 PM</p>
+                        <p>Saturday: 10:00 AM - 5:00 PM</p>
                         <p>Sunday: Closed</p>
                       </div>
                     </div>

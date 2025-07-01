@@ -12,8 +12,8 @@ export function AboutPage() {
           <div className="text-center">
             <h1 className="text-4xl lg:text-5xl font-bold mb-6">About AutoFixx</h1>
             <p className="text-xl text-gray-200 max-w-3xl mx-auto">
-              Your trusted partner for quality automobile spare parts since 2010. 
-              We're committed to keeping your vehicles running smoothly with genuine and aftermarket parts.
+              Pakistan's trusted partner for quality motorcycle spare parts since 2015. 
+              We specialize in 70CC, 100CC, and 125CC motorcycle parts to keep you riding smoothly.
             </p>
           </div>
         </div>
@@ -27,19 +27,20 @@ export function AboutPage() {
               <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">Our Story</h2>
               <div className="space-y-4 text-gray-600 dark:text-gray-300">
                 <p>
-                  Founded in 2010, AutoFixx began as a small family business with a simple mission: 
-                  to provide high-quality automotive parts at affordable prices. What started in a 
-                  single garage has grown into one of the most trusted names in the automotive parts industry.
+                  Founded in 2015 by Jabbar Ahmed, AutoFixx began as a small family business with a simple mission: 
+                  to provide high-quality motorcycle spare parts at affordable prices for Pakistan's riders. 
+                  What started in a single shop has grown into one of the most trusted names in motorcycle parts across Pakistan.
                 </p>
                 <p>
-                  Today, we serve thousands of customers across the country, from professional mechanics 
-                  to weekend DIY enthusiasts. Our commitment to quality, customer service, and competitive 
+                  Today, we serve thousands of motorcycle enthusiasts across Pakistan, from professional mechanics 
+                  to everyday riders. We specialize exclusively in 70CC, 100CC, and 125CC motorcycles - the most 
+                  popular engine sizes in Pakistan. Our commitment to quality, customer service, and competitive 
                   pricing remains unchanged from our humble beginnings.
                 </p>
                 <p>
-                  We believe that everyone deserves access to reliable automotive parts, whether you're 
-                  maintaining a daily driver or restoring a classic car. That's why we've built relationships 
-                  with the industry's leading manufacturers and suppliers.
+                  We believe that every Pakistani rider deserves access to reliable motorcycle parts, whether you're 
+                  maintaining your daily commute bike or upgrading your performance motorcycle. That's why we've built 
+                  relationships with genuine Honda, Yamaha, Suzuki, and trusted aftermarket manufacturers.
                 </p>
               </div>
             </div>
