@@ -42,11 +42,11 @@ export function Header() {
             <div className="flex items-center space-x-4">
               <span className="flex items-center">
                 <Phone className="w-4 h-4 mr-2" />
-                +1 (555) 123-4567
+                +92 345 549 4163
               </span>
               <span className="flex items-center">
                 <Mail className="w-4 h-4 mr-2" />
-                support@autofixx.com
+                iamrjahmed@gmail.com
               </span>
             </div>
             <div className="hidden md:flex items-center space-x-4">
