@@ -7,27 +7,27 @@ export function ShippingPage() {
   const shippingOptions = [
     {
       name: "Standard Shipping",
-      price: "$9.99",
+      price: "Rs. 200",
       time: "3-5 Business Days",
-      description: "Reliable ground shipping for most orders",
+      description: "Reliable delivery across Pakistan for most orders",
       icon: Package,
-      features: ["Tracking included", "Insurance up to $100", "Delivery confirmation"]
+      features: ["Tracking included", "Insurance up to Rs. 5,000", "Delivery confirmation"]
     },
     {
       name: "Express Shipping",
-      price: "$19.99",
+      price: "Rs. 400",
       time: "1-2 Business Days",
       description: "Fast delivery for urgent orders",
       icon: Truck,
-      features: ["Priority handling", "Tracking included", "Insurance up to $500"]
+      features: ["Priority handling", "Tracking included", "Insurance up to Rs. 10,000"]
     },
     {
-      name: "Overnight Shipping",
-      price: "$39.99",
-      time: "Next Business Day",
-      description: "Get your parts the next business day",
+      name: "Same Day Delivery",
+      price: "Rs. 600",
+      time: "Same Day (Lahore)",
+      description: "Get your parts the same day within Lahore",
       icon: Clock,
-      features: ["Guaranteed delivery", "Signature required", "Insurance up to $1000"]
+      features: ["Guaranteed delivery", "Call confirmation", "Insurance up to Rs. 15,000"]
     }
   ];
 
@@ -72,10 +72,10 @@ export function ShippingPage() {
               <Truck className="w-12 h-12 text-green-600 dark:text-green-400" />
             </div>
             <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">
-              FREE Shipping on Orders Over $99
+              FREE Shipping on Orders Over Rs. 5,000
             </h2>
             <p className="text-gray-600 dark:text-gray-300">
-              No minimum quantity required. Applies to standard shipping within the continental US.
+              No minimum quantity required. Applies to standard shipping within Pakistan.
             </p>
           </CardContent>
         </Card>
@@ -140,8 +140,8 @@ export function ShippingPage() {
                   Delivery Areas
                 </h3>
                 <p className="text-gray-600 dark:text-gray-300">
-                  We ship to all 50 US states, including Alaska and Hawaii. International shipping 
-                  is available to select countries. Contact us for international shipping rates.
+                  We deliver across all major cities in Pakistan including Karachi, Lahore, Islamabad, 
+                  Rawalpindi, Faisalabad, Multan, and Peshawar. Same day delivery available in Lahore.
                 </p>
               </div>
 

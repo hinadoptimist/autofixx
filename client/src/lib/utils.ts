@@ -124,18 +124,18 @@ export function getStockStatusLabel(stock: number): { label: string; color: stri
 }
 
 export function calculateShippingCost(subtotal: number, weight?: number): number {
-  // Free shipping over $99
-  if (subtotal >= 99) return 0;
+  // Free shipping over Rs. 5,000
+  if (subtotal >= 5000) return 0;
   
   // Base shipping cost
-  let shippingCost = 9.99;
+  let shippingCost = 200;
   
   // Additional cost for heavy items
-  if (weight && weight > 10) {
-    shippingCost += Math.ceil((weight - 10) / 5) * 2.99;
+  if (weight && weight > 5) {
+    shippingCost += Math.ceil((weight - 5) / 3) * 50;
   }
   
-  return Math.round(shippingCost * 100) / 100;
+  return Math.round(shippingCost);
 }
 
 export function generateProductUrl(slug: string): string {

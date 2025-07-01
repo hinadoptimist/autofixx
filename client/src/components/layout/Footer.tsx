@@ -102,15 +102,15 @@ export function Footer() {
             <div className="space-y-3">
               <div className="flex items-center">
                 <MapPin className="w-5 h-5 text-yellow-500 mr-3 flex-shrink-0" />
-                <span className="text-gray-400">123 Auto Street, Car City, CC 12345</span>
+                <span className="text-gray-400">AutoFixx Parts Store, Lahore, Punjab, Pakistan</span>
               </div>
               <div className="flex items-center">
                 <Phone className="w-5 h-5 text-yellow-500 mr-3 flex-shrink-0" />
-                <span className="text-gray-400">+1 (555) 123-4567</span>
+                <span className="text-gray-400">+92 345 549 4163</span>
               </div>
               <div className="flex items-center">
                 <Mail className="w-5 h-5 text-yellow-500 mr-3 flex-shrink-0" />
-                <span className="text-gray-400">support@autofixx.com</span>
+                <span className="text-gray-400">iamrjahmed@gmail.com</span>
               </div>
             </div>
           </div>

@@ -229,7 +229,7 @@ export function FAQPage() {
                 <Link href="/contact">Contact Support</Link>
               </Button>
               <Button size="lg" variant="outline" asChild>
-                <a href="tel:+15551234567">Call (555) 123-4567</a>
+                <a href="tel:+923455494163">Call +92 345 549 4163</a>
               </Button>
             </div>
           </CardContent>
